@@ -1,0 +1,18 @@
+permissions:
+  normal:
+    allow: ["oui", "ok", "yes"]
+  sensitive:
+    require: "okchef"
+
+paths:
+  allowed_root: "/mnt/d"
+  sensitive_folders:
+    - "Documents"
+    - "Photos"
+    - "Perso"
+    - "Private"
+
+behavior:
+  no_morality: true
+  require_explicit_action: true
+  chat_never_executes: true
